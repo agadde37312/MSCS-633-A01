@@ -1,0 +1,28 @@
+Project Name: QR Code Generator GUI
+Author: Arun Bhaskar Gadde
+Date: 01/18/2026
+
+Company: Biox Systems
+Language: Python 3.13
+
+Description:
+This application generates a QR code from a user-provided URL and displays it in a separate window, and allows the user to download it.
+
+Files Included:
+- qr_generator_gui.py
+- manifest.txt
+- requirements.txt
+- README.md
+
+Dependencies:
+- qrcode
+- pillow
+- tkinter (built-in)
+
+Execution Instructions:
+1. Install dependencies:
+   pip install -r requirements.txt
+2. Run:
+   python qr_generator_gui.py
+3. Enter URL and generate QR code.
+4. Download QR code using button.
