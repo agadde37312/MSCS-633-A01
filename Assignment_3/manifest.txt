@@ -1,0 +1,18 @@
+Project: Assignment 3 – Terminal-Based Chatbot
+Author: Arun Bhaskar Gadde
+Course: MSCS-633-A01
+Description: Terminal client chatbot implemented using Django and ChatterBot.
+Python Version: 3.13.12
+Dependencies:
+  - Django>=4.0
+  - chatterbot
+  - chatterbot-corpus
+  - spacy
+Database: SQLite (default)
+Command to Run Chatbot: python manage.py chat
+Deliverables:
+  - Python source code
+  - requirements.txt
+  - README.md
+  - Screenshot of chatbot running
+  - GitHub repository link
