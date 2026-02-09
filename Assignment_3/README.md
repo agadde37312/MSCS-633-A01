@@ -32,7 +32,7 @@ ChatterBot generates responses based on a pre-trained corpus of conversations an
 
 python -m venv venv
 
-# Windows PowerShell
+#### Windows PowerShell
 venv\Scripts\activate
 
 ### 2. Install Dependencies
