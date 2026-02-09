@@ -17,7 +17,7 @@ ChatterBot generates responses based on a pre-trained corpus of conversations an
 ---
 
 ## Technologies Used
-- Python 3.13.12
+- Python 3.
 - Django
 - ChatterBot
 - ChatterBot Corpus
@@ -29,11 +29,24 @@ ChatterBot generates responses based on a pre-trained corpus of conversations an
 ## Setup Instructions
 
 ### 1. Create and Activate Virtual Environment
-```bash
+
 python -m venv venv
 
 # Windows PowerShell
 venv\Scripts\activate
+
+### 2. Install Dependencies
+pip install -r requirements.txt
+python -m spacy download en_core_web_sm
+
+### 3. Apply Migrations
+python manage.py migrate
+
+
+### 4. Running Chatbot
+python manage.py chat
+
+
 
 ### 2. Install Dependencies
 pip install -r requirements.txt
