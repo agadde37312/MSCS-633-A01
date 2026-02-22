@@ -1,0 +1,21 @@
+# =============================================================================
+# requirements.txt  -  Fraud Detection AutoEncoder (PyOD)
+# =============================================================================
+# Install all dependencies with:
+#   pip install -r requirements.txt
+# =============================================================================
+
+# Core data science
+numpy>=1.24.0
+pandas>=2.0.0
+scikit-learn>=1.3.0
+
+# Deep learning anomaly detection
+pyod>=1.1.3
+tensorflow>=2.13.0
+
+# Visualisation
+matplotlib>=3.7.0
+seaborn>=0.12.0
+
+
